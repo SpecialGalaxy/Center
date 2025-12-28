@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #00000080;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.login-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #1abc9c;
+  color: #000;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main-btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.diamond {
+  background: #00e5ff;
+  color: #000;
+}
+
+.robux {
+  background: #ffd700;
+  color: #000;
+}
+
+.content-box {
+  background: #ffffff15;
+  padding: 20px;
+  border-radius: 15px;
+  min-height: 200px;
+}
+
+.price-list {
+  line-height: 1.8;
+}
+
+.info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social a {
+  margin: 0 10px;
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: #00000080;
+}
